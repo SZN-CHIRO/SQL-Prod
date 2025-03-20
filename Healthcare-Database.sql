@@ -30,12 +30,12 @@ CREATE TABLE appointments (
 );
 INSERT INTO patients (first_name, last_name, dob, gender, phone, email, address)
 VALUES 
-('John', 'Doe', '1990-05-14', 'Male', '123-456-7890', 'johndoe@email.com', '123 Main St, City'),
-('Jane', 'Smith', '1985-11-22', 'Female', '987-654-3210', 'janesmith@email.com', '456 Elm St, City');
+('John', 'Kim', '1990-05-14', 'Male', '139-649-1876', 'johnkim@email.com', '627 Main St, City'),
+('Jane', 'Smith', '1985-11-22', 'Female', '537-873-6387', 'janesmith@email.com', '637 Elm St, City');
 INSERT INTO doctors (first_name, last_name, specialty, phone, email)
 VALUES 
-('Dr. Alice', 'Brown', 'Cardiology', '555-123-4567', 'alice.brown@hospital.com'),
-('Dr. Bob', 'Johnson', 'Neurology', '555-987-6543', 'bob.johnson@hospital.com');
+('Dr. Alice', 'Brown', 'Cardiology', '633-227-3780', 'alice.brown@jkf.com'),
+('Dr. Bob', 'Johnson', 'Neurology', '536-482-2827', 'bob.johnson@jkf.com');
 INSERT INTO appointments (patient_id, doctor_id, appointment_date, diagnosis, prescription)
 VALUES 
 (1, 1, '2025-03-20 10:30:00', 'High Blood Pressure', 'Medication A'),
